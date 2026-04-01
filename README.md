@@ -1,16 +1,14 @@
 ![cap_sprout](https://wiki.orangefox.tech/banner.svg)
 ---
 
-# OFRP for Samsung Galaxy S21 FE 5G (codenamed _r9s_)
+# OFRP for Samsung Galaxy S21 FE 5G (_r9s_)
 
-# SM-G990E/DS
-
----
-## Device specifications 
+- SM-G990E/DS
 
 ---
+# Device specifications 
 
-| Device                  | Samsung Galaxy S21 FE 5G/ r9s                                   |
+| Device                  | Samsung Galaxy S21 FE 5G / r9s                                   |
 | ----------------------- | :---------------------------------------------------------- |
 | SoC     		  | Exynos 2100                             |
 | CPU     		  | Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) |
@@ -23,6 +21,7 @@
 ---
 ## Kernel sources
 [Kernel tree](https://github.com/r0xx3z/r9s_kernel)
+[Support](t.me/mir4ndSupport/65)
 
 ---
 ## Copyright notice
