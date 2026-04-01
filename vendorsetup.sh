@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="marble"
+FDEVICE="r9s"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -36,16 +36,37 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
+if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
+export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v30.6.zip
+export TW_DEFAULT_LANGUAGE="en"
+export LC_ALL="C"
+export ALLOW_MISSING_DEPENDENCIES=true
+export FOX_USE_NANO_EDITOR=1
+export FOX_ENABLE_APP_MANAGER=1
+export FOX_USE_BASH_SHELL=1
+export FOX_ASH_IS_BASH=1
+export FOX_USE_TAR_BINARY=1
+export FOX_USE_SED_BINARY=1
+export FOX_USE_XZ_UTILS=1
+export FOX_DELETE_AROMAFM=1
+export TARGET_DEVICE_ALT="r9s"
+export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
+export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
+	
+ # FRP_Test
+export OF_ENABLE_FRP_ADDON="1"
+
+# Settings
+export FOX_MAINTAINER_PATCH_VERSION="1"
+export OF_MAINTAINER="Miranda_OFRP"
+
  #version & variant
 export FOX_VERSION="R12.0"
 export FOX_VARIANT="A15"
 export FOX_BUILD_TYPE="Stable"
 
- #OFOX Addons
-export FOX_ENABLE_APP_MANAGER=1
 #OFR binary files
 export FOX_REPLACE_BUSYBOX_PS=1
-export FOX_USE_BASH_SHELL=1
 export FOX_ASH_IS_BASH=1
 export FOX_REPLACE_TOOLBOX_GETPROP=1
 export FOX_USE_TAR_BINARY=1
@@ -64,3 +85,15 @@ export FOX_USE_NANO_EDITOR=1
 fi
 
 
+# Modern Decryption Support (FBEv2 / Metadata)
+# Crucial for reading internal storage correctly on modern ROMs
+export OF_FBE_METADATA_MOUNT_IGNORE="1"
+export OF_IGNORE_LOGICAL_MOUNT_ERRORS="1"
+	
+# Save OrangeFox settings in a safe path away from encryption complexities
+export FOX_USE_DATA_RECOVERY_FOR_SETTINGS="1" 
+
+# Boot & Magisk Patching Handling
+export OF_USE_MAGISKBOOT="1"
+export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
+export OF_DONT_PATCH_ENCRYPTED_DEVICE="1"
