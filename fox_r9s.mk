@@ -56,5 +56,8 @@ OF_KEEP_DM_VERITY_FORCED_ENCRYPTION := 1
 OF_FLASHLIGHT_ENABLE :=1
 
 #Autor
-OF_MAINTAINER := "/device/author.png"
+#OF_MAINTAINER := "/device/author.png"
 OF_MAINTAINER := "Miranda_OFRP"
+
+# Maximun permissible splash image size (in kilobytes); do "NOT" increase
+OF_SPLASH_MAX_SIZE := "130"
