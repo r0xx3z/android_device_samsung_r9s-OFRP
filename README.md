@@ -19,8 +19,9 @@
 | Display 		  | Dynamic AMOLED 2X, 120Hz, HDR10+, 385 nits (typ), 6.41 inches, 1080 x 2400 pixels, 20:9 ratio (~401 ppi density) |
 
 ---
-## Kernel sources
+## Sources
 - [Kernel tree](https://github.com/r0xx3z/r9s_kernel)
+- [Devices Tree](https://github.com/bekirakil-0/android_device_samsung_r9s)
 - [Support](https://t.me/mir4ndSupport/65)
 
 ---
