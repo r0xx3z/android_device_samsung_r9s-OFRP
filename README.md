@@ -21,7 +21,7 @@
 ---
 ## Kernel sources
 - [Kernel tree](https://github.com/r0xx3z/r9s_kernel)
-- [Support](t.me/mir4ndSupport/65)
+- [Support](https://t.me/mir4ndSupport/65)
 
 ---
 ## Copyright notice
