@@ -8,7 +8,7 @@
 ---
 # Device specifications 
 
-| Device                  | Samsung Galaxy S21 FE 5G / r9s                                   |
+| Device                  | Samsung Galaxy S21 FE 5G                                   |
 | ----------------------- | :---------------------------------------------------------- |
 | SoC     		  | Exynos 2100                             |
 | CPU     		  | Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) |
