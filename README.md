@@ -1,4 +1,7 @@
-# Device tree for Samsung Galaxy S21 FE 5G (codenamed _r9s_)
+![cap_sprout](https://wiki.orangefox.tech/banner.svg)
+---
+
+# OFRP for Samsung Galaxy S21 FE 5G (codenamed _r9s_)
 
 # SM-G990E/DS
 
@@ -15,11 +18,11 @@
 | Memory                  | 6GB / 8GB RAM                                               |
 | Storage                 | 128GB / 256GB                                                |
 | Battery 		  | Li-Ion 4500 mAh, non-removable                               |
-| Display 		  | Dynamic AMOLED 2X, 120Hz, HDR10+, 450 nits (typ), 6.41 inches, 1080 x 2400 pixels, 20:9 ratio (~401 ppi density) |
+| Display 		  | Dynamic AMOLED 2X, 120Hz, HDR10+, 385 nits (typ), 6.41 inches, 1080 x 2400 pixels, 20:9 ratio (~401 ppi density) |
 
 ---
 ## Kernel sources
--[Kernel tree](https://github.com/r0xx3z/r9s_kernel)
+[Kernel tree](https://github.com/r0xx3z/r9s_kernel)
 
 ---
 ## Copyright notice
