@@ -19,7 +19,7 @@
 
 ---
 ## Kernel sources
-"https://github.com/r0xx3z/r9s_kernel"
+"-[(Kernel tree)](https://github.com/r0xx3z/r9s_kernel)
 
 ---
 ## Copyright notice
