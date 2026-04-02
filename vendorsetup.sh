@@ -63,7 +63,6 @@ export FOX_MAINTAINER_PATCH_VERSION="1"
 export OF_MAINTAINER="Miranda_OFRP"
 
  #version & variant
-export FOX_VERSION="R12.0"
 export FOX_VARIANT="A15"
 export FOX_BUILD_TYPE="Stable"
 	
@@ -81,12 +80,6 @@ fi
 # Modern Decryption Support (FBEv2 / Metadata)
 # Crucial for reading internal storage correctly on modern ROMs
 export OF_FBE_METADATA_MOUNT_IGNORE="1"
-export OF_IGNORE_LOGICAL_MOUNT_ERRORS="1"
 	
 # Save OrangeFox settings in a safe path away from encryption complexities
 export FOX_USE_DATA_RECOVERY_FOR_SETTINGS="1" 
-
-# Boot & Magisk Patching Handling
-export OF_USE_MAGISKBOOT="1"
-export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
-export OF_DONT_PATCH_ENCRYPTED_DEVICE="1"
