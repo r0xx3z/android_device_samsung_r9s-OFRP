@@ -49,11 +49,13 @@ export FOX_USE_TAR_BINARY=1
 export FOX_USE_SED_BINARY=1
 export FOX_USE_XZ_UTILS=1
 export FOX_DELETE_AROMAFM=1
+export FOX_REPLACE_BUSYBOX_PS=1
+export FOX_REPLACE_TOOLBOX_GETPROP=1
 export TARGET_DEVICE_ALT="r9s"
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 	
- # FRP_Test
+ # FRP
 export OF_ENABLE_FRP_ADDON="1"
 
 # Settings
@@ -64,15 +66,6 @@ export OF_MAINTAINER="Miranda_OFRP"
 export FOX_VERSION="R12.0"
 export FOX_VARIANT="A15"
 export FOX_BUILD_TYPE="Stable"
-
-#OFR binary files
-export FOX_REPLACE_BUSYBOX_PS=1
-export FOX_ASH_IS_BASH=1
-export FOX_REPLACE_TOOLBOX_GETPROP=1
-export FOX_USE_TAR_BINARY=1
-export FOX_USE_XZ_UTILS=1
-export FOX_USE_SED_BINARY=1
-export FOX_USE_NANO_EDITOR=1
 	
 	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
