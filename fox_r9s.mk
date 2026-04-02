@@ -47,7 +47,6 @@ OF_UNBIND_SDCARD_F2FS := 1
 OF_PATCH_AVB20 := 1
 
 #Autor
-#OF_MAINTAINER := "/device/author.png"
 OF_MAINTAINER := "Miranda_OFRP"
 
 # Maximun permissible splash image size (in kilobytes); do "NOT" increase
