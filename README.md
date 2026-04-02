@@ -3,7 +3,7 @@
 
 # OFRP for Samsung Galaxy S21 FE 5G (_r9s_)
 
-- SM-G990E/DS
+- SM-G990E/B/DS
 
 ---
 # Device specifications 
