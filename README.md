@@ -22,7 +22,10 @@
 ## Sources
 - [Kernel tree](https://github.com/r0xx3z/r9s_kernel)
 - [Devices Tree](https://github.com/bekirakil-0/android_device_samsung_r9s)
-- [Support](https://t.me/mir4ndSupport/65)
+
+---
+
+## [Support](https://t.me/mir4ndSupport/65)
 
 ---
 ## Copyright notice
