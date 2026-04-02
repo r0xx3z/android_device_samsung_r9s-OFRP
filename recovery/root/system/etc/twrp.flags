@@ -20,6 +20,7 @@ odm		/odm		ext4						wait,logical,first_stage_mount,backup=1,flashimg,display="O
 /cache		ext4		/dev/block/bootdevice/by-name/cache		flags=backup=1;display="Cache"
 /efs		ext4		/dev/block/bootdevice/by-name/efs		flags=backup=1;display="EFS"
 /sec_efs	ext4            /dev/block/bootdevice/by-name/sec_efs           flags=backup=1;display="sec_efs"
+/frp		emmc    /dev/block/bootdevice/by-name/frp			flags=display="FRP";backup=1;wipeingui
 /modem		emmc		/dev/block/bootdevice/by-name/radio		flags=backup=1;display="Modem"
 /dtbo		emmc		/dev/block/bootdevice/by-name/dtbo		flags=backup=1;flashimg;display="Dtbo"
 /cp_debug	emmc		/dev/block/bootdevice/by-name/cp_debug		flags=backup=1;display="CP Debug"
