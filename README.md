@@ -26,8 +26,8 @@
 ---
 
 # [Support](https://t.me/mir4ndSupport/65)
---
 
+---
 ## Copyright notice
  ```
   /*
