@@ -45,7 +45,7 @@ export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
 export FOX_ENABLE_SUKISU_SUPPORT=1
 	
- # FRP
+ # FRP_Test
 export OF_ENABLE_FRP_ADDON="1"
 
 # Settings
@@ -53,8 +53,8 @@ export FOX_MAINTAINER_PATCH_VERSION="1"
 export OF_MAINTAINER="Miranda_OFRP"
 
  #version & variant
-export FOX_VARIANT="A15"
-export FOX_BUILD_TYPE="Stable"
+export FOX_VARIANT="A16"
+export FOX_BUILD_TYPE="Testing"
 	
 	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
