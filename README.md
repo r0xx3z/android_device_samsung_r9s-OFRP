@@ -20,8 +20,8 @@
 
 ---
 ## Sources
-- [Kernel tree](https://github.com/r0xx3z/r9s_kernel)
-- [Devices Tree](https://github.com/bekirakil-0/android_device_samsung_r9s)
+- [Kernel Tree](https://github.com/r0xx3z/r9s_kernel)
+- [Device Tree](https://github.com/bekirakil-0/android_device_samsung_r9s)
 
 ---
 
