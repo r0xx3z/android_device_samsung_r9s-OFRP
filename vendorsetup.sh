@@ -39,13 +39,8 @@ export FOX_REPLACE_TOOLBOX_GETPROP=1
 export TARGET_DEVICE_ALT="r9s"
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
-
-
-# KernelSU-Next / SukiSu support
-export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
-export FOX_ENABLE_SUKISU_SUPPORT=1
 	
- # FRP_Test
+# FRP_Test
 export OF_ENABLE_FRP_ADDON="1"
 
 # Settings
