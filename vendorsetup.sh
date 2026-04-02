@@ -24,6 +24,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v30.7.zip
 export TW_DEFAULT_LANGUAGE="en"
+export OF_SCREEN_TIMEOUT="0"
 export LC_ALL="C"
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_NANO_EDITOR=1
