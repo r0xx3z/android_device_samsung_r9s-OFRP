@@ -3,19 +3,20 @@
 
 # OFRP for Samsung Galaxy S21 FE 5G (_r9s_)
 
-- SM-G990E/B/DS
+- SM-G990E
 
 ---
 # Device specifications 
 
 | Device                  | Samsung Galaxy S21 FE 5G                                   |
 | ----------------------- | :---------------------------------------------------------- |
-| SoC     		  | Exynos 2100                             |
+| SoC     		  | Exynos 2100                    |
 | CPU     		  | Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) |
-| GPU     		  | Mali-G78                                                  |
-| Memory                  | 6GB / 8GB RAM                                               |
-| Storage                 | 128GB / 256GB                                                |
-| Battery 		  | Li-Ion 4500 mAh, non-removable                               |
+| OS Version  | Android 12 (OneUI 4.0) to Android 16 (OneUI 8) |
+| GPU     		  | Mali-G78                       |
+| Memory      | 6GB / 8GB RAM                  |
+| Storage     | 128GB / 256GB                  |
+| Battery 		  | Li-Ion 4500 mAh, non-removable |
 | Display 		  | Dynamic AMOLED 2X, 120Hz, HDR10+, 385 nits (typ), 6.41 inches, 1080 x 2400 pixels, 20:9 ratio (~401 ppi density) |
 
 ---
@@ -25,7 +26,6 @@
 
 ---
 
-## Support
 - [Support](https://t.me/mir4ndSupport/65)
 
 ---
