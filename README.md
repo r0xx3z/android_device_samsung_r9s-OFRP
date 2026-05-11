@@ -4,6 +4,7 @@
 # OFRP for Samsung Galaxy S21 FE 5G (_r9s_)
 
 - SM-G990E
+- SM-G990B
 
 ---
 # Device specifications 
@@ -12,7 +13,7 @@
 | ----------------------- | :---------------------------------------------------------- |
 | SoC     		  | Exynos 2100                    |
 | CPU     		  | Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) |
-| OS Version  | Android 12 (OneUI 4.0) to Android 16 (OneUI 8) |
+| OS Version  | Android 12 (OneUI 4.0) to Android 16 (OneUI 8.5) |
 | GPU     		  | Mali-G78                       |
 | Memory      | 6GB / 8GB RAM                  |
 | Storage     | 128GB / 256GB                  |
@@ -32,7 +33,7 @@
 ## Copyright notice
  ```
   /*
-  *  Copyright (C) 2022-2026 The OrangeFox Recovery Project
+  *  Copyright (C) 2023 The OrangeFox Recovery Project
   *
   * This program is free software: you can redistribute it and/or modify
   * it under the terms of the GNU General Public License as published by
