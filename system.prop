@@ -5,5 +5,3 @@ ro.boot.dynamic_partitions=true
 ro.boot.boot_devices=13100000.ufs
 sys.usb.controller=10e00000.usb
 
-# USB
-vendor.usb.use_ffs_mtp=1
